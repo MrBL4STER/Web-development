@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color:paleturquoise ;
+        }
+        .form-container{
+            height: 60em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* transform: scale(0); */
+        }
+        .title{
+            font-size: 40pt;
+        }
+        .blod{
+            /* width: 10px; */
+            font-weight: bold; 
+            font-size: 25px;
+        }
+        .input-name {
+            border: 3px solid darkblue;
+            width: auto;
+            margin-bottom: 10px;
+            background-color:paleturquoise ;
+            height: 25px;
+        }
+        .input-email {
+            border: 3px solid darkblue;
+            margin-bottom: 10px;
+            width: auto;
+            background-color:paleturquoise ;
+            height: 25px;
+        }
+        .input-password1 {
+            border: 3px solid darkblue;
+            margin-bottom: 10px;
+            width: auto;
+            background-color:paleturquoise ;
+            height: 25px;
+            
+        }
+        .input-password {
+            border: 3px solid darkblue;
+            margin-bottom: 10px;
+            width: auto;
+            background-color:paleturquoise ;
+            height: 25px;
+        }
+        .input-checkbox {
+            border: 3px solid darkblue;
+            margin-bottom: 10px;
+            background-color:paleturquoise ;
+            width: 20px;
+            height: 20px;
+        }
+        .submit-button {
+            font-weight: bold;
+            border: 3px solid darkblue;
+            margin-top: 10px;
+            background-color:rgba(28, 40, 207, 0.726) ;
+            font-size: 20pt;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h1 class="title">Registration</h1>
+            <label class="blod" for="name">Name</label>
+            <input type="text" id="name" class="input-name">
+            <br>
+            <label class="blod" for="mail">Email</label>
+            <input type="email" id="mail" class="input-email">
+            <br>
+            <label class="blod" for="password">Password</label>
+            <input type="password" id="password" class="input-password">
+            <br>
+            <label class="blod" for="confirm">Confirm password</label>
+            <input type="password" id="confirm" class="input-password1">
+            <br>
+            <label class="blod" for="checkbox">Agreeing to the terms</label>
+            <input type="checkbox" id="checkbox" class="input-checkbox">
+            <br>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
