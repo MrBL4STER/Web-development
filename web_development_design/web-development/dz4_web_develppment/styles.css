@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely+Display+W00+Regular');
+.header{
+  display: flex;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+  /* border: 1px dashed salmon; */
+  justify-content: space-evenly;
+
+  width: 1440px;
+  margin: auto;
+}
+.logo{
+  margin-right: 8px;
+}
+.logo_and_text{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-items: center;
+  /* border: 1px dashed salmon; */
+}
+.logo_text{
+  display: flex;
+  font-family: 'montserrat';
+  font-size:large;
+}
+.navigation_blocks{
+  font-family:'Lato';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  align-items: center;
+  cursor: pointer;
+  /* border: 1px dashed salmon; */
+}
+.navigation-block{
+  font-size: 2ex;
+  margin-right: 40px;
+}
+.navigation-block1{
+  color: #71A894;
+}
+.main_container{
+  width: 1440px;
+  margin: auto;
+  margin-bottom: 160px;
+}
+.information1{
+  display: flex;
+  /* border: 1px dashed salmon; */
+  margin-bottom: 8%;
+}
+.zaglavie{
+  height: 100%;
+  /* border: 1px dashed salmon; */
+  width: 50%;
+  margin-top: 4%;
+}
+.image{
+  /* border: 1px dashed salmon; */
+  width: 50;
+}
+.text1{
+  font-family: "Bely Display W00 Regular";
+  font-size: 64px;
+  width: 600px;
+  margin-bottom: 0px;
+  
+}
+.text2{
+  font-family:'Lato';
+  color: #66645E;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+}
+.button{
+  font-family:'Lato';
+  background-color: #71A894;
+  color: white;
+  width: 219px;
+  height: 64px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.information2{
+  text-align: center;
+  /* border: 1px dashed salmon; */
+  margin-bottom: 48px;
+}
+.text3{
+  font-family: "Bely Display W00 Regular";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.text4{
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.blocks{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 340px;
+}
+.block{
+  font-family: 'Lato';
+  flex-direction: column;
+  border-style: none;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.img3{
+  margin-top: 64px;
+}
+.trips{
+  font-family: 'Lato';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+}
+.trips_dawn{
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 64px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+  
